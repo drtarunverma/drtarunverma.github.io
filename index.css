@@ -15,7 +15,7 @@ main{
     height: 80vh;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
-    background: #F54533;
+    background: #3D99CC;
 }
 
 main div {
@@ -27,19 +27,18 @@ main div {
 main h1{
     text-align: center;
     letter-spacing: 2px;
-    color: #FF8D82;
+    color: #99DBFF;
     text-transform: uppercase;
     font-size: 48px;
     /* padding-left: 24px; */
 }
 
 main img{
-    object-fit: contain;
+    object-fit: cover;
     box-sizing: border-box;
-    background: #FF8D82;
+    background: #99DBFF;
     width: 180px;
     height: 180px;
-    padding: 12px;
     text-align: center;
     border-radius: 50%;
     border: none;
