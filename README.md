@@ -1,2 +1,1 @@
-# drtarunverma.github.io
-My personal description
+# vermakartik.github.io

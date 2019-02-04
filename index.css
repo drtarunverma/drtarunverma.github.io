@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One|Ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Rammetto One", cursive;
+}
+
+main{
+    position: relative;
+    text-align: center;
+    height: 80vh;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    background: #F54533;
+}
+
+main div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main h1{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FF8D82;
+    text-transform: uppercase;
+    font-size: 48px;
+    /* padding-left: 24px; */
+}
+
+main img{
+    object-fit: contain;
+    box-sizing: border-box;
+    background: #FF8D82;
+    width: 180px;
+    height: 180px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 12px;
+    color: #957B78;
+    /* background: blue; */
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    text-align: center;
+}
